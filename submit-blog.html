@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Share your experience and help others by contributing to the Serene Souls student blog.">
+    <meta name="keywords" content="student depression blog, share experience, mental health support">
+    <meta name="author" content="Serene Souls">
+    <meta name="robots" content="index, follow">
+    
+    <title>Share Your Story | Serene Souls</title>
+
+    <link rel="stylesheet" href="../css/submit-blog.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Share Your Story</h2>
+        <form action="submit-blog.php" method="POST">
+            <label for="title">Blog Title</label>
+            <input type="text" id="title" name="title" placeholder="Enter your blog title" required>
+            
+            <label for="content">Your Story</label>
+            <textarea id="content" name="content" rows="6" placeholder="Write your experience..." required></textarea>
+            
+            <label for="age">Your Age</label>
+            <input type="number" id="age" name="age" min="13" max="100" required>
+            
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+            </select>
+            
+            <button type="submit">Submit Your Story</button>
+        </form>
+    </div>
+</body>
+</html>
