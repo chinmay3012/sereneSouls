@@ -1,0 +1,46 @@
+:root {
+    --primary: #6A9FB5;
+    --secondary: #7FB685;
+    --accent: #EAD7BB;
+    --background: #F7F5F2;
+    --text: #2E2E2E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.blog-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.blog-meta {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.blog-content {
+    font-size: 16px;
+    line-height: 1.6;
+}
